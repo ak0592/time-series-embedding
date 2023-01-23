@@ -1,0 +1,13 @@
+GRADUALLY_DENSE:
+    n_cluster: 5
+    n_dim: 5
+    n_points_per_cluster: 100
+    mean: 1.0
+    variance: 0.5
+    advection_ratio: 0.2
+    n_steps: 7
+    random_state: 0
+
+TIME_SERIES_SWISSROLL:
+    n_data_points: 1000
+    n_steps: 7

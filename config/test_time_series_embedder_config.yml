@@ -1,0 +1,21 @@
+# for test parameters
+DYNAMIC_T_SNE:
+    perplexity: 30
+    n_epochs: 5
+    initial_lr: 2400.0
+    final_lr: 200.0
+    lr_switch: 250
+    init_stdev: 0.0001
+    sigma_iters: 5
+    initial_momentum: 0.5
+    final_momentum: 0.8
+    momentum_switch: 250
+    penalty_lambda: 0.1
+    metric: 'euclidean'
+    random_state: 0
+    verbose: 1
+I_SNE:
+    n_iterations: 10
+    lr: 0.01
+    internal_weight: 0.7
+    verbose: 1

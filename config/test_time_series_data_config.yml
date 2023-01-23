@@ -1,0 +1,11 @@
+# for test parameters
+GRADUALLY_DENSE:
+    n_cluster: 1
+    n_dim: 2
+    n_points_per_cluster: 100
+    steps: 10
+    random_state: 0
+
+TIME_SERIES_SWISSROLL:
+    n_data_points: 100
+    n_steps: 5
