@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 
-from time_series_embedding.time_series_data.parent_time_series_data import ParentTimeSeriesData
-from time_series_embedding.config.time_series_config import param_to_data_key
+from time_series_data.parent_time_series_data import ParentTimeSeriesData
+from config.time_series_config import param_to_data_key
 
 
 class TimeSeriesSwissRollData(ParentTimeSeriesData):

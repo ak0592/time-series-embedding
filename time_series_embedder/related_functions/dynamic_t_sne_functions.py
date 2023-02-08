@@ -4,7 +4,7 @@ import torch
 
 from sklearn.utils import check_random_state
 from typing import List, Union
-from time_series_embedding.time_series_embedder.parent_embedder import transform_dataframe_to_list_array_and_check_original_data
+from time_series_embedder.parent_embedder import transform_dataframe_to_list_array_and_check_original_data
 
 epsilon = 1e-16
 floath = np.float32

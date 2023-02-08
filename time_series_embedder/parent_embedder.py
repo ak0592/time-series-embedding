@@ -3,7 +3,7 @@ from abc import ABCMeta, abstractmethod
 import pandas as pd
 import numpy as np
 
-from time_series_embedding.time_series_data.parent_time_series_data import ParentTimeSeriesData
+from time_series_data.parent_time_series_data import ParentTimeSeriesData
 from typing import List, Dict, Union
 
 

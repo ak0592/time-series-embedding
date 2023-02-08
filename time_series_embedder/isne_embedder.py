@@ -3,9 +3,9 @@ import pandas as pd
 import sys
 import torch
 
-from time_series_embedding.time_series_embedder.parent_embedder import ParentTimeSeriesEmbedder, \
+from time_series_embedder.parent_embedder import ParentTimeSeriesEmbedder, \
     transform_dataframe_to_list_array_and_check_original_data
-from time_series_embedding.config.time_series_config import param_to_data_key
+from config.time_series_config import param_to_data_key
 from typing import List, Union
 
 EPS = sys.float_info.epsilon

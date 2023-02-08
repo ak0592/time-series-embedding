@@ -1,8 +1,8 @@
-from time_series_embedding.time_series_data import ParentTimeSeriesData
-from time_series_embedding.time_series_embedder.parent_embedder import ParentTimeSeriesEmbedder
-from time_series_embedding.time_series_embedder.const import TIMESERIESEMBEDDERS_REF
-from time_series_embedding.config.time_series_config import TimeSeriesConfig
-from time_series_embedding.config.const import DEFAULT_EMBEDDER_YAML_FILENAME, TEST_EMBEDDER_YAML_FILENAME
+from time_series_data import ParentTimeSeriesData
+from time_series_embedder.parent_embedder import ParentTimeSeriesEmbedder
+from time_series_embedder.const import TIMESERIESEMBEDDERS_REF
+from config.time_series_config import TimeSeriesConfig
+from config.const import DEFAULT_EMBEDDER_YAML_FILENAME, TEST_EMBEDDER_YAML_FILENAME
 
 
 def choose_time_series_embedder(key: str, data: ParentTimeSeriesData, is_test=False) -> ParentTimeSeriesEmbedder:

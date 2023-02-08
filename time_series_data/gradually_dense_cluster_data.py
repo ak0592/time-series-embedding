@@ -1,8 +1,8 @@
 import pandas as pd
 
-from time_series_embedding.time_series_data.parent_time_series_data import ParentTimeSeriesData
-from time_series_embedding.config.time_series_config import param_to_data_key
-from time_series_embedding.time_series_data.generate_gradually_dense_cluster import gradually_dense_cluster
+from time_series_data.parent_time_series_data import ParentTimeSeriesData
+from config.time_series_config import param_to_data_key
+from time_series_data.generate_gradually_dense_cluster import gradually_dense_cluster
 
 
 class GraduallyDenseClusterData(ParentTimeSeriesData):

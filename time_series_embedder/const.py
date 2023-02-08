@@ -1,5 +1,5 @@
-from time_series_embedding.time_series_embedder.dynamic_tsne_embedder import DynamicTSNEEmbedder
-from time_series_embedding.time_series_embedder.isne_embedder import IsneEmbedder
+from time_series_embedder.dynamic_tsne_embedder import DynamicTSNEEmbedder
+from time_series_embedder.isne_embedder import IsneEmbedder
 
 
 TIMESERIESEMBEDDERS_REF = {

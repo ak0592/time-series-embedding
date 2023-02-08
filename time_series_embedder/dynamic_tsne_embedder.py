@@ -1,8 +1,8 @@
 import torch
 
-from time_series_embedding.time_series_embedder.parent_embedder import ParentTimeSeriesEmbedder
-from time_series_embedding.config.time_series_config import param_to_data_key
-from time_series_embedding.time_series_embedder.related_functions.dynamic_t_sne_functions import dynamic_tsne
+from time_series_embedder.parent_embedder import ParentTimeSeriesEmbedder
+from config.time_series_config import param_to_data_key
+from time_series_embedder.related_functions.dynamic_t_sne_functions import dynamic_tsne
 from typing import Union
 
 
